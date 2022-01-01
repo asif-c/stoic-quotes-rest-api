@@ -3,6 +3,7 @@ A REST API, when called, gives a randomly selected quote from one of the ancient
 The API URL is https://asifchoudhury.ca/StoicQuotesRESTAPI/?format=json
 
 Example of calling the API:
+
 From any internet-connected computer,via terminal or command-line interface, type:
 
 curl https://asifchoudhury.ca/StoicQuotesRESTAPI/?format=json
@@ -16,4 +17,5 @@ Each time the API is called, a new quote will appear.
 Technical features:
 
 -Built using Django REST framework, PostgreSQL
+
 -Hosted in AWS
